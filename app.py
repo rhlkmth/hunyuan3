@@ -178,7 +178,7 @@ with left:
     with c11:
         num_inference_steps = st.number_input("Denoising steps", value=28, min_value=1, max_value=200, step=1)
         guidance_scale = st.number_input("Guidance scale", value=3.5, min_value=0.0, max_value=50.0, step=0.5)
-        enable_safety_checker = st.checkbox("Enable safety checker", value=True)
+        enable_safety_checker = st.checkbox("Enable safety checker", value=False)
     with c12:
         num_outputs = st.selectbox("Images per prompt", [1, 2, 3, 4], index=0)
         enable_prompt_expansion = st.checkbox("Prompt expansion", value=True)
