@@ -1,0 +1,5 @@
+streamlit
+fal-client
+pillow
+requests
+python-dotenv
