@@ -7,7 +7,6 @@ from typing import Any, Dict, List, Tuple
 
 import streamlit as st
 from PIL import Image
-import fal_client
 
 
 # ---------------------------
